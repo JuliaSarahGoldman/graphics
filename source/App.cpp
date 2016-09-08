@@ -1,7 +1,7 @@
 /** \file App.cpp */
 #include "App.h"
 
-// Tells C++ to invoke command-line main() function even on OS X and Win32.
+/** Tells C++ to invoke command-line main() function even on OS X and Win32. */
 G3D_START_AT_MAIN();
 
 int main(int argc, const char* argv[]) {

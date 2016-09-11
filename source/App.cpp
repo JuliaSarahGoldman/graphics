@@ -49,7 +49,31 @@ int main(int argc, const char* argv[]) {
 App::App(const GApp::Settings& settings) : GApp(settings) {
 }
 
-void App::onInit(){
+//http://bgfons.com/upload/stone_texture2399.jpg
+void App::generateStaircase(){
+    TextOutput text = TextOutput("scene/staircase.Scene.Any");
+    String stairCode = String("{ name = \"Staircase\"; models = { ");
+    text.writeSymbol( stairCode
+        + "\n stairModel = ArticulatedModel::Specification { filename = \"model/cube/cube.obj\"; "
+        + "\n preprocess = { setMaterial(all(), \"stone_texture.jpg\");"
+        + "\n transformGeometry(all(), Matrix4::scale(2, .3, .5));};};};"
+        + "\n entities = { skybox = Skybox { texture = \"cubemap/whiteroom/whiteroom-*.png\"; };" +
+        + "\n sun = Light { attenuation = (0, 0, 1); bulbPower = Power3(4e+006);"
+        + "\n frame = CFrame::fromXYZYPRDegrees(-15, 207, -41, -164, -77, 77);"
+        + "\n shadowMapSize = Vector2int16(2048, 2048); "
+        + "\n spotHalfAngleDegrees = 5; spotSquare = true; type = \"SPOT\"; };"
+    );
+    for (int i = 0; i < 50; ++i){
+        text.writeSymbol((String) "\nstep" + (String)std::to_string(i)
+            + " = VisibleEntity {"
+            + " \n model = \"stairModel\";"
+            + "\n frame = CFrame::fromXYZYPRDegrees(0, " + (String)std::to_string(i*.1) 
+            +", 0, "
+            + (String)std::to_string(i*15) + ", 0, 0); };"
+        );
+    }
+    text.writeSymbol("\n camera = Camera { frame = CFrame::fromXYZYPRDegrees(0, 0, 5);};};};");
+    text.commit();
 }
 
 
@@ -58,7 +82,7 @@ void App::onInit(){
 // automatically caught.
 void App::onInit() {
     debugPrintf("Target frame rate = %f Hz\n", realTimeTargetDuration());
-
+    App::generateStaircase();
     GApp::onInit();
     setFrameDuration(1.0f / 120.0f);
 

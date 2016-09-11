@@ -19,6 +19,8 @@ public:
     App(const GApp::Settings& settings = GApp::Settings());
 
     void generateStaircase();
+    void generateFlowers();
+    String makePuffball(float X, float Y, String id);
     virtual void onInit() override;
     virtual void onAI() override;
     virtual void onNetwork() override;

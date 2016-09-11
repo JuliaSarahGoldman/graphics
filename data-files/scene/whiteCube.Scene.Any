@@ -29,7 +29,7 @@
 
         cube0 = VisibleEntity {
             model = "cubeModel";
-            frame = CFrame::fromXYZYPRDegrees(0, 0, 0, 0, 0, 0);
+            frame = CFrame::fromXYZYPRDegrees(0, 0, -2, 0, 0, 45);
 
         };
 

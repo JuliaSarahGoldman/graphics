@@ -18,6 +18,7 @@ public:
     
     App(const GApp::Settings& settings = GApp::Settings());
 
+    void generateStaircase();
     virtual void onInit() override;
     virtual void onAI() override;
     virtual void onNetwork() override;

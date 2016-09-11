@@ -49,6 +49,7 @@ int main(int argc, const char* argv[]) {
 App::App(const GApp::Settings& settings) : GApp(settings) {
 }
 
+
 //http://bgfons.com/upload/stone_texture2399.jpg
 void App::generateStaircase(){
     TextOutput text = TextOutput("scene/staircase.Scene.Any");
@@ -76,6 +77,127 @@ void App::generateStaircase(){
     text.commit();
 }
 
+String App::makePuffball(float x, float z, String id){
+    String flower = String("cubeA_");
+    flower += id
+        + "= VisibleEntity {"
+        + "\n model = \"whiteCubeModel\";"
+        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 0," + (String)std::to_string(z) +", 45, 0, 0);"
+        +"\n};"
+        +"cubeB_" + id
+        + "= VisibleEntity {"
+        + "\n model = \"whiteCubeModel\";"
+        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 0," + (String)std::to_string(z) +", 0, 45, 0);"
+        +"\n};"
+        +"cubeC_" + id
+        + "= VisibleEntity {"
+        + "\n model = \"whiteCubeModel\";"
+        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 0," + (String)std::to_string(z) +", 0, 0, 45);"
+        +"\n};";
+    return flower;
+}
+
+void App::generateFlowers(){
+    TextOutput text = TextOutput("scene/pointyStars.Scene.Any");
+    String starCode = String("{ name = \"pointyStars\";");
+    text.writeSymbol(starCode
++"\n        models = {"
++"\n        whiteCubeModel = ArticulatedModel::Specification {"
++"\n            filename = \"model/cube/cube.obj\";"
++"\n            preprocess = {"
++"\n                setMaterial(all(), Color3(1, 1, 1));"
++"\n            };"
++"\n        };"
++"\n        petalModel = ArticulatedModel::Specification {"
++"\n            filename = \"model/cube/cube.obj\";"
++"\n            preprocess = {"
++"\n                setMaterial(all(), Color3(1, 1, 0));"
++"\n                transformGeometry(all(), Matrix4::scale(2, .3, .5));"
++"\n            };"
++"\n        };"
++"\n        stemModel = ArticulatedModel::Specification {"
++"\n            filename = \"model/cube/cube.obj\";"
++"\n            preprocess = {"
++"\n                setMaterial(all(), Color3(0, 1, 0));"
++"\n                transformGeometry(all(), Matrix4::scale(.1, 2, .1));"
++"\n            };"
++"\n        };"
++"\n    };\n"
+   
+    + "entities = { "
+        
++ "\n        skybox = Skybox { "
++ "\n            texture = \"cubemap/whiteroom/whiteroom-*.png\"; "
++ "\n        };"
++ "\n        "
++ "\n        sun = Light { "
++ "\n            attenuation = (0, 0, 1); "
++ "\n            bulbPower = Power3(4e+005); "
++ "\n            frame = CFrame::fromXYZYPRDegrees(-15, 207, -41, -164, -77, 77);"
++ "\n            shadowMapSize = Vector2int16(2048, 2048); "
++ "\n            spotHalfAngleDegrees = 5; "
++ "\n            spotSquare = true; "
++ "\n            type = \"SPOT\"; "
++ "\n        };"
++"\n         camera = Camera {"
++"\n            frame = CFrame::fromXYZYPRDegrees(0, 0, 5);"
++"\n        };\n"
+); 
+    for (int i = 0; i < 10; i+=2){
+        for (int j = 0; j <10; j+=2){
+            String puff = makePuffball(i, j, (String)std::to_string(i) + "_" + (String)std::to_string(j));
+            text.writeSymbol(puff);
+        }
+    }
+    
+    //String puff = makePuffball(0, 0, "8_9");
+    text.writeSymbol((String)"};};");
+    text.commit();
+}
+/*
+void App::generateFlowers(){
+    TextOutput text = TextOutput("scene/pointyStars.Scene.Any");
+    String starCode = String("{ name = \"pointyStars\"; models = { ");
+    text.writeSymbol( starCode
+        + "\n models = { whiteCubeModel = ArticulatedModel::Specification {"
+        +  "filename = \"model/cube/cube.obj\"; preprocess = {"
+        +       "setMaterial(all(), Color3(1, 1, 1));};};"
+        + "petalModel = ArticulatedModel::Specification {"
+        + "filename = \"model/cube/cube.obj\";"
+        +  "preprocess = { setMaterial(all(), Color3(1, 1, 0));"
+        +   "transformGeometry(all(), Matrix4::scale(2, .3, .5));};};"
+        + "stemModel = ArticulatedModel::Specification {"
+        + "filename = \"model/cube/cube.obj\";"
+        + "preprocess = { setMaterial(all(), Color3(0, 1, 0));"
+        + "transformGeometry(all(), Matrix4::scale(.1, 2, .1));};};};"
+        + "\n entities = { skybox = Skybox { texture = \"cubemap/whiteroom/whiteroom-*.png\"; };" +
+        + "\n sun = Light { attenuation = (0, 0, 1); bulbPower = Power3(4e+006);"
+        + "\n frame = CFrame::fromXYZYPRDegrees(-15, 207, -41, -164, -77, 77);"
+        + "\n shadowMapSize = Vector2int16(2048, 2048); "
+        + "\n spotHalfAngleDegrees = 5; spotSquare = true; type = \"SPOT\"; };"
+    );
+    for (int i = 0; i < 4; ++i){
+        for (int j = 0; j < 4; ++j){
+            if (i%2 == 0){
+                text.writeSymbol((String) "cubeA" + (String)std::to_string(i) + "_" + (String)std::to_string(j)
+                    + " = VisibleEntity { \n model = \"whiteCubeModel\";"
+                    + "\n frame = CFrame::fromXYZYPRDegrees("
+                    + (String)std::to_string(i) + ", " + (String)std::to_string(j) + ", 0, 45, 0, 0);};"      
+                    + "\n cubeB" + (String)std::to_string(i)+ "_" + (String)std::to_string(j) + " = VisibleEntity {"
+                    + "\n model = \"whiteCubeModel\";"
+                    + "\n frame = CFrame::fromXYZYPRDegrees("
+                    + (String)std::to_string(i) + ", " + (String)std::to_string(j) +", 0, 0, 45, 0)};"
+                    + "\n cubeC" + (String)std::to_string(i) + "_" + (String)std::to_string(j) + " = VisibleEntity {"
+                    + "\n model = \"whiteCubeModel\";"
+                    + "\n frame = CFrame::fromXYZYPRDegrees("
+                    + (String)std::to_string(i) + ", " + (String)std::to_string(j) + ", 0, 0, 0, 45);};");
+            }
+        }
+    }
+    text.writeSymbol("\n camera = Camera { frame = CFrame::fromXYZYPRDegrees(0, 0, 5);};};};");
+    text.commit();
+}*/
+
 
 // Called before the application loop begins.  Load data here and
 // not in the constructor so that common exceptions will be
@@ -83,6 +205,7 @@ void App::generateStaircase(){
 void App::onInit() {
     debugPrintf("Target frame rate = %f Hz\n", realTimeTargetDuration());
     App::generateStaircase();
+    App::generateFlowers();
     GApp::onInit();
     setFrameDuration(1.0f / 120.0f);
 
@@ -98,7 +221,7 @@ void App::onInit() {
     developerWindow->cameraControlWindow->moveTo(Point2(developerWindow->cameraControlWindow->rect().x0(), 0));
     loadScene(
         //"G3D Sponza"
-        "G3D Cornell Box" // Load something simple
+        "Stars" // Load something simple
         //developerWindow->sceneEditorWindow->selectedSceneName()  // Load the first scene encountered 
         );
 }

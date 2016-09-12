@@ -78,7 +78,7 @@ void App::generateStaircase(){
 }
 
 String App::makeStem(float x, float z, String id){
-    String stem = String("petalA_");
+    String stem = String("stemA_");
     stem += id
 +       "= VisibleEntity {"
 +"\n        model = \"stemModel\";"
@@ -161,6 +161,13 @@ void App::generateFlowers(){
 +"\n                transformGeometry(all(), Matrix4::scale(.1, 2, .1));"
 +"\n            };"
 +"\n        };"
++"\n        groundModel = ArticulatedModel::Specification {"
++"\n            filename = \"model/cube/cube.obj\";"
++"\n            preprocess = {"
++"\n                setMaterial(all(), Color3(0, 1, 0));"
++"\n                transformGeometry(all(), Matrix4::scale(20, .2, 20));"
++"\n            };"
++"\n        };"
 +"\n    };\n"
    
     + "entities = { "
@@ -181,7 +188,10 @@ void App::generateFlowers(){
 +"\n         camera = Camera {"
 +"\n            frame = CFrame::fromXYZYPRDegrees(0, 0, 5);"
 +"\n        };\n"
-); 
++"\n         ground0 = VisibleEntity {"
++"\n            model = \"groundModel\";"
++"\n            frame = CFrame::fromXYZYPRDegrees(0, -1, 0, 0, 0, 0);"
++"\n        };"); 
     for (int i = 0; i <= 10; i+=2){
         for (int j = 0; j <=10; j+=2){
             if((i+j)%4 == 0){
@@ -206,49 +216,6 @@ void App::generateFlowers(){
     text.writeSymbol((String)"};};");
     text.commit();
 }
-/*
-void App::generateFlowers(){
-    TextOutput text = TextOutput("scene/pointyStars.Scene.Any");
-    String starCode = String("{ name = \"pointyStars\"; models = { ");
-    text.writeSymbol( starCode
-        + "\n models = { whiteCubeModel = ArticulatedModel::Specification {"
-        +  "filename = \"model/cube/cube.obj\"; preprocess = {"
-        +       "setMaterial(all(), Color3(1, 1, 1));};};"
-        + "petalModel = ArticulatedModel::Specification {"
-        + "filename = \"model/cube/cube.obj\";"
-        +  "preprocess = { setMaterial(all(), Color3(1, 1, 0));"
-        +   "transformGeometry(all(), Matrix4::scale(2, .3, .5));};};"
-        + "stemModel = ArticulatedModel::Specification {"
-        + "filename = \"model/cube/cube.obj\";"
-        + "preprocess = { setMaterial(all(), Color3(0, 1, 0));"
-        + "transformGeometry(all(), Matrix4::scale(.1, 2, .1));};};};"
-        + "\n entities = { skybox = Skybox { texture = \"cubemap/whiteroom/whiteroom-*.png\"; };" +
-        + "\n sun = Light { attenuation = (0, 0, 1); bulbPower = Power3(4e+006);"
-        + "\n frame = CFrame::fromXYZYPRDegrees(-15, 207, -41, -164, -77, 77);"
-        + "\n shadowMapSize = Vector2int16(2048, 2048); "
-        + "\n spotHalfAngleDegrees = 5; spotSquare = true; type = \"SPOT\"; };"
-    );
-    for (int i = 0; i < 4; ++i){
-        for (int j = 0; j < 4; ++j){
-            if (i%2 == 0){
-                text.writeSymbol((String) "cubeA" + (String)std::to_string(i) + "_" + (String)std::to_string(j)
-                    + " = VisibleEntity { \n model = \"whiteCubeModel\";"
-                    + "\n frame = CFrame::fromXYZYPRDegrees("
-                    + (String)std::to_string(i) + ", " + (String)std::to_string(j) + ", 0, 45, 0, 0);};"      
-                    + "\n cubeB" + (String)std::to_string(i)+ "_" + (String)std::to_string(j) + " = VisibleEntity {"
-                    + "\n model = \"whiteCubeModel\";"
-                    + "\n frame = CFrame::fromXYZYPRDegrees("
-                    + (String)std::to_string(i) + ", " + (String)std::to_string(j) +", 0, 0, 45, 0)};"
-                    + "\n cubeC" + (String)std::to_string(i) + "_" + (String)std::to_string(j) + " = VisibleEntity {"
-                    + "\n model = \"whiteCubeModel\";"
-                    + "\n frame = CFrame::fromXYZYPRDegrees("
-                    + (String)std::to_string(i) + ", " + (String)std::to_string(j) + ", 0, 0, 0, 45);};");
-            }
-        }
-    }
-    text.writeSymbol("\n camera = Camera { frame = CFrame::fromXYZYPRDegrees(0, 0, 5);};};};");
-    text.commit();
-}*/
 
 
 // Called before the application loop begins.  Load data here and

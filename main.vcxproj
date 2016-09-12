@@ -95,6 +95,10 @@
     <ResourceCompile Include="resources.rc" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="data-files\scene\CornellBox.Scene.Any" />
+    <None Include="data-files\scene\pointyStars.Scene.Any" />
+    <None Include="data-files\scene\project.Scene.Any" />
+    <None Include="data-files\scene\staircase.Scene.Any" />
     <None Include="data-files\scene\whiteCube.Scene.Any" />
     <None Include="data-files\test.Scene.Any" />
     <None Include="Doxyfile" />

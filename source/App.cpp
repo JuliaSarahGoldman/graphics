@@ -278,6 +278,7 @@ void App::makeGUI() {
 // for you to modify. If you aren't changing the hardware rendering strategy, you can
 // delete this override entirely.
 void App::onGraphics3D(RenderDevice* rd, Array<shared_ptr<Surface> >& allSurfaces) {
+
     if (!scene()) {
         if ((submitToDisplayMode() == SubmitToDisplayMode::MAXIMIZE_THROUGHPUT) && (!rd->swapBuffersAutomatically())) {
             swapBuffers();

@@ -21,6 +21,8 @@ public:
     void generateStaircase();
     void generateFlowers();
     String makePuffball(float X, float Y, String id);
+    String makeStem(float x, float y, String id);
+    String makeBloom(float x, float y, String id);
     virtual void onInit() override;
     virtual void onAI() override;
     virtual void onNetwork() override;

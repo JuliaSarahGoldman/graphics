@@ -77,22 +77,61 @@ void App::generateStaircase(){
     text.commit();
 }
 
+String App::makeStem(float x, float z, String id){
+    String stem = String("petalA_");
+    stem += id
++       "= VisibleEntity {"
++"\n        model = \"stemModel\";"
++"\n        frame = CFrame::fromXYZYPRDegrees("
++   (String)std::to_string(x) + ", 0," + (String)std::to_string(z) +", 0, 0, 0);"
++"\n        };";
+    return stem;
+}
+
+String App::makeBloom(float x, float z, String id){
+    String flower = String("petalA_");
+    flower += id
++"\n        = VisibleEntity {"
++"\n            model = \"petalModel\";"
++"\n            frame = CFrame::fromXYZYPRDegrees("
++ (String)std::to_string(x) +", 1, " + (String)std::to_string(z) +", 0, 0, 0);"
++"\n        };"
+
++"\n        petalB_" + id +" = VisibleEntity {"
++"\n            model = \"petalModel\";"
++"\n            frame = CFrame::fromXYZYPRDegrees("
++ (String)std::to_string(x) +", 1, " + (String)std::to_string(z) +", 45, 0, 0);"
++"\n        };"
+
++"\n        petalC_" + id + " = VisibleEntity {"
++"\n            model = \"petalModel\";"
++"\n            frame = CFrame::fromXYZYPRDegrees("
++ (String)std::to_string(x) +", 1, " + (String)std::to_string(z) +", 90, 0, 0);"
++"\n        };"
+
++"\n        petalD_" + id + " = VisibleEntity {"
++"\n            model = \"petalModel\";"
++"\n            frame = CFrame::fromXYZYPRDegrees("
++ (String)std::to_string(x) +", 1, " + (String)std::to_string(z) +", 135, 0, 0);"
++"\n         };";
+        return flower;
+}
 String App::makePuffball(float x, float z, String id){
     String flower = String("cubeA_");
     flower += id
         + "= VisibleEntity {"
         + "\n model = \"whiteCubeModel\";"
-        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 0," + (String)std::to_string(z) +", 45, 0, 0);"
+        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 1," + (String)std::to_string(z) +", 45, 0, 0);"
         +"\n};"
         +"cubeB_" + id
         + "= VisibleEntity {"
         + "\n model = \"whiteCubeModel\";"
-        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 0," + (String)std::to_string(z) +", 0, 45, 0);"
+        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 1," + (String)std::to_string(z) +", 0, 45, 0);"
         +"\n};"
         +"cubeC_" + id
         + "= VisibleEntity {"
         + "\n model = \"whiteCubeModel\";"
-        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 0," + (String)std::to_string(z) +", 0, 0, 45);"
+        + "\n   frame = CFrame::fromXYZYPRDegrees(" + (String)std::to_string(x)+", 1," + (String)std::to_string(z) +", 0, 0, 45);"
         +"\n};";
     return flower;
 }
@@ -143,10 +182,23 @@ void App::generateFlowers(){
 +"\n            frame = CFrame::fromXYZYPRDegrees(0, 0, 5);"
 +"\n        };\n"
 ); 
-    for (int i = 0; i < 10; i+=2){
-        for (int j = 0; j <10; j+=2){
-            String puff = makePuffball(i, j, (String)std::to_string(i) + "_" + (String)std::to_string(j));
-            text.writeSymbol(puff);
+    for (int i = 0; i <= 10; i+=2){
+        for (int j = 0; j <=10; j+=2){
+            if((i+j)%4 == 0){
+                text.writeSymbol(makePuffball(i, j, (String)std::to_string(i) + "_" + (String)std::to_string(j) +"a"));
+                text.writeSymbol(makePuffball(-i, -j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"b"));
+                text.writeSymbol(makePuffball(-i, j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"c"));
+                text.writeSymbol(makePuffball(i, -j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"d"));
+            }else{
+                text.writeSymbol(makeBloom(i, j, (String)std::to_string(i) + "_" + (String)std::to_string(j) +"a"));
+                text.writeSymbol(makeBloom(-i, -j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"b"));
+                text.writeSymbol(makeBloom(-i, j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"c"));
+                text.writeSymbol(makeBloom(i, -j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"d"));
+            }
+            text.writeSymbol(makeStem(i,  j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"a"));
+            text.writeSymbol(makeStem(-i,  -j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"b"));
+            text.writeSymbol(makeStem(-i,  j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"c"));
+            text.writeSymbol(makeStem(i,  -j, (String)std::to_string(i) + "_" + (String)std::to_string(j)+"d"));
         }
     }
     

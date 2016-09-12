@@ -38,229 +38,2444 @@ entities = {
          camera = Camera {
             frame = CFrame::fromXYZYPRDegrees(0, 0, 5);
         };
- cubeA_0_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,0.000000, 45, 0, 0);
-};cubeB_0_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,0.000000, 0, 45, 0);
-};cubeC_0_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,0.000000, 0, 0, 45);
-}; cubeA_0_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,2.000000, 45, 0, 0);
-};cubeB_0_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,2.000000, 0, 45, 0);
-};cubeC_0_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,2.000000, 0, 0, 45);
-}; cubeA_0_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,4.000000, 45, 0, 0);
-};cubeB_0_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,4.000000, 0, 45, 0);
-};cubeC_0_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,4.000000, 0, 0, 45);
-}; cubeA_0_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,6.000000, 45, 0, 0);
-};cubeB_0_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,6.000000, 0, 45, 0);
-};cubeC_0_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,6.000000, 0, 0, 45);
-}; cubeA_0_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,8.000000, 45, 0, 0);
-};cubeB_0_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,8.000000, 0, 45, 0);
-};cubeC_0_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(0.000000, 0,8.000000, 0, 0, 45);
-}; cubeA_2_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,0.000000, 45, 0, 0);
-};cubeB_2_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,0.000000, 0, 45, 0);
-};cubeC_2_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,0.000000, 0, 0, 45);
-}; cubeA_2_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,2.000000, 45, 0, 0);
-};cubeB_2_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,2.000000, 0, 45, 0);
-};cubeC_2_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,2.000000, 0, 0, 45);
-}; cubeA_2_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,4.000000, 45, 0, 0);
-};cubeB_2_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,4.000000, 0, 45, 0);
-};cubeC_2_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,4.000000, 0, 0, 45);
-}; cubeA_2_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,6.000000, 45, 0, 0);
-};cubeB_2_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,6.000000, 0, 45, 0);
-};cubeC_2_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,6.000000, 0, 0, 45);
-}; cubeA_2_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,8.000000, 45, 0, 0);
-};cubeB_2_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,8.000000, 0, 45, 0);
-};cubeC_2_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(2.000000, 0,8.000000, 0, 0, 45);
-}; cubeA_4_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,0.000000, 45, 0, 0);
-};cubeB_4_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,0.000000, 0, 45, 0);
-};cubeC_4_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,0.000000, 0, 0, 45);
-}; cubeA_4_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,2.000000, 45, 0, 0);
-};cubeB_4_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,2.000000, 0, 45, 0);
-};cubeC_4_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,2.000000, 0, 0, 45);
-}; cubeA_4_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,4.000000, 45, 0, 0);
-};cubeB_4_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,4.000000, 0, 45, 0);
-};cubeC_4_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,4.000000, 0, 0, 45);
-}; cubeA_4_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,6.000000, 45, 0, 0);
-};cubeB_4_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,6.000000, 0, 45, 0);
-};cubeC_4_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,6.000000, 0, 0, 45);
-}; cubeA_4_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,8.000000, 45, 0, 0);
-};cubeB_4_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,8.000000, 0, 45, 0);
-};cubeC_4_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(4.000000, 0,8.000000, 0, 0, 45);
-}; cubeA_6_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,0.000000, 45, 0, 0);
-};cubeB_6_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,0.000000, 0, 45, 0);
-};cubeC_6_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,0.000000, 0, 0, 45);
-}; cubeA_6_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,2.000000, 45, 0, 0);
-};cubeB_6_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,2.000000, 0, 45, 0);
-};cubeC_6_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,2.000000, 0, 0, 45);
-}; cubeA_6_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,4.000000, 45, 0, 0);
-};cubeB_6_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,4.000000, 0, 45, 0);
-};cubeC_6_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,4.000000, 0, 0, 45);
-}; cubeA_6_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,6.000000, 45, 0, 0);
-};cubeB_6_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,6.000000, 0, 45, 0);
-};cubeC_6_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,6.000000, 0, 0, 45);
-}; cubeA_6_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,8.000000, 45, 0, 0);
-};cubeB_6_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,8.000000, 0, 45, 0);
-};cubeC_6_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(6.000000, 0,8.000000, 0, 0, 45);
-}; cubeA_8_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,0.000000, 45, 0, 0);
-};cubeB_8_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,0.000000, 0, 45, 0);
-};cubeC_8_0= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,0.000000, 0, 0, 45);
-}; cubeA_8_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,2.000000, 45, 0, 0);
-};cubeB_8_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,2.000000, 0, 45, 0);
-};cubeC_8_2= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,2.000000, 0, 0, 45);
-}; cubeA_8_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,4.000000, 45, 0, 0);
-};cubeB_8_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,4.000000, 0, 45, 0);
-};cubeC_8_4= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,4.000000, 0, 0, 45);
-}; cubeA_8_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,6.000000, 45, 0, 0);
-};cubeB_8_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,6.000000, 0, 45, 0);
-};cubeC_8_6= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,6.000000, 0, 0, 45);
-}; cubeA_8_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,8.000000, 45, 0, 0);
-};cubeB_8_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,8.000000, 0, 45, 0);
-};cubeC_8_8= VisibleEntity {
- model = "whiteCubeModel";
-   frame = CFrame::fromXYZYPRDegrees(8.000000, 0,8.000000, 0, 0, 45);
-}; };}; 
+ cubeA_0_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 45, 0, 0);
+};cubeB_0_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 45, 0);
+};cubeC_0_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_0_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 45, 0, 0);
+};cubeB_0_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 45, 0);
+};cubeC_0_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_0_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 45, 0, 0);
+};cubeB_0_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 45, 0);
+};cubeC_0_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_0_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 45, 0, 0);
+};cubeB_0_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 45, 0);
+};cubeC_0_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,0.000000, 0, 0, 45);
+}; petalA_0_0a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_0_0b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_0_0c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_0_0d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_0_2a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 0, 0, 0);
+        };
+        petalB_0_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 45, 0, 0);
+        };
+        petalC_0_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 90, 0, 0);
+        };
+        petalD_0_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 135, 0,
+0);
+         }; petalA_0_2b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 0, 0, 0);
+        };
+        petalB_0_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 45, 0,
+0);
+        };
+        petalC_0_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 90, 0,
+0);
+        };
+        petalD_0_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 135, 0,
+0);
+         }; petalA_0_2c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 0, 0, 0);
+        };
+        petalB_0_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 45, 0, 0);
+        };
+        petalC_0_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 90, 0, 0);
+        };
+        petalD_0_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 2.000000, 135, 0,
+0);
+         }; petalA_0_2d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 0, 0, 0);
+        };
+        petalB_0_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 45, 0,
+0);
+        };
+        petalC_0_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 90, 0,
+0);
+        };
+        petalD_0_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -2.000000, 135, 0,
+0);
+         }; petalA_0_2a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_0_2b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_0_2c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_0_2d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-2.000000, 0, 0, 0);
+        }; cubeA_0_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,4.000000, 45, 0, 0);
+};cubeB_0_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,4.000000, 0, 45, 0);
+};cubeC_0_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,4.000000, 0, 0, 45);
+}; cubeA_0_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-4.000000, 45, 0, 0);
+};cubeB_0_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-4.000000, 0, 45, 0);
+};cubeC_0_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-4.000000, 0, 0, 45);
+}; cubeA_0_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,4.000000, 45, 0, 0);
+};cubeB_0_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,4.000000, 0, 45, 0);
+};cubeC_0_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,4.000000, 0, 0, 45);
+}; cubeA_0_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-4.000000, 45, 0, 0);
+};cubeB_0_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-4.000000, 0, 45, 0);
+};cubeC_0_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-4.000000, 0, 0, 45);
+}; petalA_0_4a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_0_4b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_0_4c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_0_4d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_0_6a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 0, 0, 0);
+        };
+        petalB_0_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 45, 0, 0);
+        };
+        petalC_0_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 90, 0, 0);
+        };
+        petalD_0_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 135, 0,
+0);
+         }; petalA_0_6b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 0, 0, 0);
+        };
+        petalB_0_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 45, 0,
+0);
+        };
+        petalC_0_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 90, 0,
+0);
+        };
+        petalD_0_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 135, 0,
+0);
+         }; petalA_0_6c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 0, 0, 0);
+        };
+        petalB_0_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 45, 0, 0);
+        };
+        petalC_0_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 90, 0, 0);
+        };
+        petalD_0_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 6.000000, 135, 0,
+0);
+         }; petalA_0_6d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 0, 0, 0);
+        };
+        petalB_0_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 45, 0,
+0);
+        };
+        petalC_0_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 90, 0,
+0);
+        };
+        petalD_0_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -6.000000, 135, 0,
+0);
+         }; petalA_0_6a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_0_6b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_0_6c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_0_6d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-6.000000, 0, 0, 0);
+        }; cubeA_0_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,8.000000, 45, 0, 0);
+};cubeB_0_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,8.000000, 0, 45, 0);
+};cubeC_0_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,8.000000, 0, 0, 45);
+}; cubeA_0_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-8.000000, 45, 0, 0);
+};cubeB_0_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-8.000000, 0, 45, 0);
+};cubeC_0_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-8.000000, 0, 0, 45);
+}; cubeA_0_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,8.000000, 45, 0, 0);
+};cubeB_0_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,8.000000, 0, 45, 0);
+};cubeC_0_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,8.000000, 0, 0, 45);
+}; cubeA_0_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-8.000000, 45, 0, 0);
+};cubeB_0_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-8.000000, 0, 45, 0);
+};cubeC_0_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(0.000000, 1,-8.000000, 0, 0, 45);
+}; petalA_0_8a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_0_8b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_0_8c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_0_8d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_0_10a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 0, 0, 0);
+        };
+        petalB_0_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 45, 0,
+0);
+        };
+        petalC_0_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 90, 0,
+0);
+        };
+        petalD_0_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 135, 0,
+0);
+         }; petalA_0_10b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 0, 0,
+0);
+        };
+        petalB_0_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 45, 0,
+0);
+        };
+        petalC_0_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 90, 0,
+0);
+        };
+        petalD_0_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 135, 0,
+0);
+         }; petalA_0_10c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 0, 0, 0);
+        };
+        petalB_0_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 45, 0,
+0);
+        };
+        petalC_0_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 90, 0,
+0);
+        };
+        petalD_0_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, 10.000000, 135, 0,
+0);
+         }; petalA_0_10d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 0, 0,
+0);
+        };
+        petalB_0_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 45, 0,
+0);
+        };
+        petalC_0_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 90, 0,
+0);
+        };
+        petalD_0_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(0.000000, 1, -10.000000, 135, 0,
+0);
+         }; petalA_0_10a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_0_10b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_0_10c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_0_10d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(0.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_2_0a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_2_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 45, 0, 0);
+        };
+        petalC_2_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 90, 0, 0);
+        };
+        petalD_2_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_2_0b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_2_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_2_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_2_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_2_0c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_2_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_2_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_2_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_2_0d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_2_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 45, 0, 0);
+        };
+        petalC_2_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 90, 0, 0);
+        };
+        petalD_2_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_2_0a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_2_0b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_2_0c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_2_0d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,0.000000, 0, 0, 0);
+        }; cubeA_2_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,2.000000, 45, 0, 0);
+};cubeB_2_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,2.000000, 0, 45, 0);
+};cubeC_2_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,2.000000, 0, 0, 45);
+}; cubeA_2_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-2.000000, 45, 0, 0);
+};cubeB_2_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-2.000000, 0, 45, 0);
+};cubeC_2_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-2.000000, 0, 0, 45);
+}; cubeA_2_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,2.000000, 45, 0, 0);
+};cubeB_2_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,2.000000, 0, 45, 0);
+};cubeC_2_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,2.000000, 0, 0, 45);
+}; cubeA_2_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-2.000000, 45, 0, 0);
+};cubeB_2_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-2.000000, 0, 45, 0);
+};cubeC_2_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-2.000000, 0, 0, 45);
+}; petalA_2_2a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_2_2b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_2_2c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_2_2d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_2_4a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 4.000000, 0, 0, 0);
+        };
+        petalB_2_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 4.000000, 45, 0, 0);
+        };
+        petalC_2_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 4.000000, 90, 0, 0);
+        };
+        petalD_2_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 4.000000, 135, 0,
+0);
+         }; petalA_2_4b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -4.000000, 0, 0,
+0);
+        };
+        petalB_2_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -4.000000, 45, 0,
+0);
+        };
+        petalC_2_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -4.000000, 90, 0,
+0);
+        };
+        petalD_2_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -4.000000, 135, 0,
+0);
+         }; petalA_2_4c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 4.000000, 0, 0, 0);
+        };
+        petalB_2_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 4.000000, 45, 0,
+0);
+        };
+        petalC_2_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 4.000000, 90, 0,
+0);
+        };
+        petalD_2_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 4.000000, 135, 0,
+0);
+         }; petalA_2_4d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -4.000000, 0, 0, 0);
+        };
+        petalB_2_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -4.000000, 45, 0,
+0);
+        };
+        petalC_2_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -4.000000, 90, 0,
+0);
+        };
+        petalD_2_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -4.000000, 135, 0,
+0);
+         }; petalA_2_4a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_2_4b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_2_4c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_2_4d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,-4.000000, 0, 0, 0);
+        }; cubeA_2_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,6.000000, 45, 0, 0);
+};cubeB_2_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,6.000000, 0, 45, 0);
+};cubeC_2_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,6.000000, 0, 0, 45);
+}; cubeA_2_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-6.000000, 45, 0, 0);
+};cubeB_2_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-6.000000, 0, 45, 0);
+};cubeC_2_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-6.000000, 0, 0, 45);
+}; cubeA_2_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,6.000000, 45, 0, 0);
+};cubeB_2_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,6.000000, 0, 45, 0);
+};cubeC_2_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,6.000000, 0, 0, 45);
+}; cubeA_2_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-6.000000, 45, 0, 0);
+};cubeB_2_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-6.000000, 0, 45, 0);
+};cubeC_2_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-6.000000, 0, 0, 45);
+}; petalA_2_6a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_2_6b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_2_6c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_2_6d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_2_8a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 8.000000, 0, 0, 0);
+        };
+        petalB_2_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 8.000000, 45, 0, 0);
+        };
+        petalC_2_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 8.000000, 90, 0, 0);
+        };
+        petalD_2_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, 8.000000, 135, 0,
+0);
+         }; petalA_2_8b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -8.000000, 0, 0,
+0);
+        };
+        petalB_2_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -8.000000, 45, 0,
+0);
+        };
+        petalC_2_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -8.000000, 90, 0,
+0);
+        };
+        petalD_2_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, -8.000000, 135, 0,
+0);
+         }; petalA_2_8c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 8.000000, 0, 0, 0);
+        };
+        petalB_2_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 8.000000, 45, 0,
+0);
+        };
+        petalC_2_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 8.000000, 90, 0,
+0);
+        };
+        petalD_2_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-2.000000, 1, 8.000000, 135, 0,
+0);
+         }; petalA_2_8d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -8.000000, 0, 0, 0);
+        };
+        petalB_2_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -8.000000, 45, 0,
+0);
+        };
+        petalC_2_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -8.000000, 90, 0,
+0);
+        };
+        petalD_2_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(2.000000, 1, -8.000000, 135, 0,
+0);
+         }; petalA_2_8a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_2_8b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_2_8c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_2_8d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,-8.000000, 0, 0, 0);
+        }; cubeA_2_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,10.000000, 45, 0, 0);
+};cubeB_2_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,10.000000, 0, 45, 0);
+};cubeC_2_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,10.000000, 0, 0, 45);
+}; cubeA_2_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-10.000000, 45, 0, 0);
+};cubeB_2_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-10.000000, 0, 45, 0);
+};cubeC_2_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,-10.000000, 0, 0, 45);
+}; cubeA_2_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,10.000000, 45, 0, 0);
+};cubeB_2_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,10.000000, 0, 45, 0);
+};cubeC_2_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-2.000000, 1,10.000000, 0, 0, 45);
+}; cubeA_2_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-10.000000, 45, 0, 0);
+};cubeB_2_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-10.000000, 0, 45, 0);
+};cubeC_2_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(2.000000, 1,-10.000000, 0, 0, 45);
+}; petalA_2_10a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_2_10b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_2_10c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-2.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_2_10d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(2.000000, 0,-10.000000, 0, 0, 0);
+        }; cubeA_4_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,0.000000, 45, 0, 0);
+};cubeB_4_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,0.000000, 0, 45, 0);
+};cubeC_4_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_4_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,0.000000, 45, 0, 0);
+};cubeB_4_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,0.000000, 0, 45, 0);
+};cubeC_4_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_4_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,0.000000, 45, 0, 0);
+};cubeB_4_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,0.000000, 0, 45, 0);
+};cubeC_4_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_4_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,0.000000, 45, 0, 0);
+};cubeB_4_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,0.000000, 0, 45, 0);
+};cubeC_4_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,0.000000, 0, 0, 45);
+}; petalA_4_0a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_4_0b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_4_0c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_4_0d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_4_2a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 2.000000, 0, 0, 0);
+        };
+        petalB_4_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 2.000000, 45, 0, 0);
+        };
+        petalC_4_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 2.000000, 90, 0, 0);
+        };
+        petalD_4_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 2.000000, 135, 0,
+0);
+         }; petalA_4_2b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -2.000000, 0, 0,
+0);
+        };
+        petalB_4_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -2.000000, 45, 0,
+0);
+        };
+        petalC_4_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -2.000000, 90, 0,
+0);
+        };
+        petalD_4_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -2.000000, 135, 0,
+0);
+         }; petalA_4_2c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 2.000000, 0, 0, 0);
+        };
+        petalB_4_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 2.000000, 45, 0,
+0);
+        };
+        petalC_4_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 2.000000, 90, 0,
+0);
+        };
+        petalD_4_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 2.000000, 135, 0,
+0);
+         }; petalA_4_2d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -2.000000, 0, 0, 0);
+        };
+        petalB_4_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -2.000000, 45, 0,
+0);
+        };
+        petalC_4_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -2.000000, 90, 0,
+0);
+        };
+        petalD_4_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -2.000000, 135, 0,
+0);
+         }; petalA_4_2a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_4_2b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_4_2c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_4_2d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,-2.000000, 0, 0, 0);
+        }; cubeA_4_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,4.000000, 45, 0, 0);
+};cubeB_4_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,4.000000, 0, 45, 0);
+};cubeC_4_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,4.000000, 0, 0, 45);
+}; cubeA_4_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,-4.000000, 45, 0, 0);
+};cubeB_4_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,-4.000000, 0, 45, 0);
+};cubeC_4_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,-4.000000, 0, 0, 45);
+}; cubeA_4_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,4.000000, 45, 0, 0);
+};cubeB_4_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,4.000000, 0, 45, 0);
+};cubeC_4_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,4.000000, 0, 0, 45);
+}; cubeA_4_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,-4.000000, 45, 0, 0);
+};cubeB_4_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,-4.000000, 0, 45, 0);
+};cubeC_4_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,-4.000000, 0, 0, 45);
+}; petalA_4_4a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_4_4b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_4_4c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_4_4d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_4_6a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 6.000000, 0, 0, 0);
+        };
+        petalB_4_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 6.000000, 45, 0, 0);
+        };
+        petalC_4_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 6.000000, 90, 0, 0);
+        };
+        petalD_4_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 6.000000, 135, 0,
+0);
+         }; petalA_4_6b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -6.000000, 0, 0,
+0);
+        };
+        petalB_4_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -6.000000, 45, 0,
+0);
+        };
+        petalC_4_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -6.000000, 90, 0,
+0);
+        };
+        petalD_4_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -6.000000, 135, 0,
+0);
+         }; petalA_4_6c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 6.000000, 0, 0, 0);
+        };
+        petalB_4_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 6.000000, 45, 0,
+0);
+        };
+        petalC_4_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 6.000000, 90, 0,
+0);
+        };
+        petalD_4_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 6.000000, 135, 0,
+0);
+         }; petalA_4_6d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -6.000000, 0, 0, 0);
+        };
+        petalB_4_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -6.000000, 45, 0,
+0);
+        };
+        petalC_4_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -6.000000, 90, 0,
+0);
+        };
+        petalD_4_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -6.000000, 135, 0,
+0);
+         }; petalA_4_6a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_4_6b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_4_6c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_4_6d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,-6.000000, 0, 0, 0);
+        }; cubeA_4_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,8.000000, 45, 0, 0);
+};cubeB_4_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,8.000000, 0, 45, 0);
+};cubeC_4_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,8.000000, 0, 0, 45);
+}; cubeA_4_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,-8.000000, 45, 0, 0);
+};cubeB_4_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,-8.000000, 0, 45, 0);
+};cubeC_4_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,-8.000000, 0, 0, 45);
+}; cubeA_4_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,8.000000, 45, 0, 0);
+};cubeB_4_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,8.000000, 0, 45, 0);
+};cubeC_4_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-4.000000, 1,8.000000, 0, 0, 45);
+}; cubeA_4_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,-8.000000, 45, 0, 0);
+};cubeB_4_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,-8.000000, 0, 45, 0);
+};cubeC_4_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(4.000000, 1,-8.000000, 0, 0, 45);
+}; petalA_4_8a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_4_8b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_4_8c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_4_8d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_4_10a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 10.000000, 0, 0, 0);
+        };
+        petalB_4_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 10.000000, 45, 0,
+0);
+        };
+        petalC_4_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 10.000000, 90, 0,
+0);
+        };
+        petalD_4_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, 10.000000, 135, 0,
+0);
+         }; petalA_4_10b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -10.000000, 0, 0,
+0);
+        };
+        petalB_4_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -10.000000, 45, 0,
+0);
+        };
+        petalC_4_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -10.000000, 90, 0,
+0);
+        };
+        petalD_4_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, -10.000000, 135, 0,
+0);
+         }; petalA_4_10c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 10.000000, 0, 0,
+0);
+        };
+        petalB_4_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 10.000000, 45, 0,
+0);
+        };
+        petalC_4_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 10.000000, 90, 0,
+0);
+        };
+        petalD_4_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-4.000000, 1, 10.000000, 135, 0,
+0);
+         }; petalA_4_10d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -10.000000, 0, 0,
+0);
+        };
+        petalB_4_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -10.000000, 45, 0,
+0);
+        };
+        petalC_4_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -10.000000, 90, 0,
+0);
+        };
+        petalD_4_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(4.000000, 1, -10.000000, 135, 0,
+0);
+         }; petalA_4_10a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_4_10b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_4_10c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-4.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_4_10d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(4.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_6_0a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_6_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 45, 0, 0);
+        };
+        petalC_6_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 90, 0, 0);
+        };
+        petalD_6_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_6_0b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_6_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_6_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_6_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_6_0c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_6_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_6_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_6_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_6_0d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_6_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 45, 0, 0);
+        };
+        petalC_6_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 90, 0, 0);
+        };
+        petalD_6_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_6_0a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_6_0b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_6_0c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_6_0d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,0.000000, 0, 0, 0);
+        }; cubeA_6_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,2.000000, 45, 0, 0);
+};cubeB_6_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,2.000000, 0, 45, 0);
+};cubeC_6_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,2.000000, 0, 0, 45);
+}; cubeA_6_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-2.000000, 45, 0, 0);
+};cubeB_6_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-2.000000, 0, 45, 0);
+};cubeC_6_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-2.000000, 0, 0, 45);
+}; cubeA_6_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,2.000000, 45, 0, 0);
+};cubeB_6_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,2.000000, 0, 45, 0);
+};cubeC_6_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,2.000000, 0, 0, 45);
+}; cubeA_6_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-2.000000, 45, 0, 0);
+};cubeB_6_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-2.000000, 0, 45, 0);
+};cubeC_6_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-2.000000, 0, 0, 45);
+}; petalA_6_2a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_6_2b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_6_2c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_6_2d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_6_4a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 4.000000, 0, 0, 0);
+        };
+        petalB_6_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 4.000000, 45, 0, 0);
+        };
+        petalC_6_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 4.000000, 90, 0, 0);
+        };
+        petalD_6_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 4.000000, 135, 0,
+0);
+         }; petalA_6_4b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -4.000000, 0, 0,
+0);
+        };
+        petalB_6_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -4.000000, 45, 0,
+0);
+        };
+        petalC_6_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -4.000000, 90, 0,
+0);
+        };
+        petalD_6_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -4.000000, 135, 0,
+0);
+         }; petalA_6_4c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 4.000000, 0, 0, 0);
+        };
+        petalB_6_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 4.000000, 45, 0,
+0);
+        };
+        petalC_6_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 4.000000, 90, 0,
+0);
+        };
+        petalD_6_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 4.000000, 135, 0,
+0);
+         }; petalA_6_4d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -4.000000, 0, 0, 0);
+        };
+        petalB_6_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -4.000000, 45, 0,
+0);
+        };
+        petalC_6_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -4.000000, 90, 0,
+0);
+        };
+        petalD_6_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -4.000000, 135, 0,
+0);
+         }; petalA_6_4a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_6_4b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_6_4c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_6_4d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,-4.000000, 0, 0, 0);
+        }; cubeA_6_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,6.000000, 45, 0, 0);
+};cubeB_6_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,6.000000, 0, 45, 0);
+};cubeC_6_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,6.000000, 0, 0, 45);
+}; cubeA_6_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-6.000000, 45, 0, 0);
+};cubeB_6_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-6.000000, 0, 45, 0);
+};cubeC_6_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-6.000000, 0, 0, 45);
+}; cubeA_6_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,6.000000, 45, 0, 0);
+};cubeB_6_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,6.000000, 0, 45, 0);
+};cubeC_6_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,6.000000, 0, 0, 45);
+}; cubeA_6_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-6.000000, 45, 0, 0);
+};cubeB_6_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-6.000000, 0, 45, 0);
+};cubeC_6_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-6.000000, 0, 0, 45);
+}; petalA_6_6a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_6_6b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_6_6c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_6_6d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_6_8a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 8.000000, 0, 0, 0);
+        };
+        petalB_6_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 8.000000, 45, 0, 0);
+        };
+        petalC_6_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 8.000000, 90, 0, 0);
+        };
+        petalD_6_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, 8.000000, 135, 0,
+0);
+         }; petalA_6_8b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -8.000000, 0, 0,
+0);
+        };
+        petalB_6_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -8.000000, 45, 0,
+0);
+        };
+        petalC_6_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -8.000000, 90, 0,
+0);
+        };
+        petalD_6_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, -8.000000, 135, 0,
+0);
+         }; petalA_6_8c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 8.000000, 0, 0, 0);
+        };
+        petalB_6_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 8.000000, 45, 0,
+0);
+        };
+        petalC_6_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 8.000000, 90, 0,
+0);
+        };
+        petalD_6_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-6.000000, 1, 8.000000, 135, 0,
+0);
+         }; petalA_6_8d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -8.000000, 0, 0, 0);
+        };
+        petalB_6_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -8.000000, 45, 0,
+0);
+        };
+        petalC_6_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -8.000000, 90, 0,
+0);
+        };
+        petalD_6_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(6.000000, 1, -8.000000, 135, 0,
+0);
+         }; petalA_6_8a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_6_8b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_6_8c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_6_8d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,-8.000000, 0, 0, 0);
+        }; cubeA_6_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,10.000000, 45, 0, 0);
+};cubeB_6_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,10.000000, 0, 45, 0);
+};cubeC_6_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,10.000000, 0, 0, 45);
+}; cubeA_6_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-10.000000, 45, 0, 0);
+};cubeB_6_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-10.000000, 0, 45, 0);
+};cubeC_6_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,-10.000000, 0, 0, 45);
+}; cubeA_6_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,10.000000, 45, 0, 0);
+};cubeB_6_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,10.000000, 0, 45, 0);
+};cubeC_6_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-6.000000, 1,10.000000, 0, 0, 45);
+}; cubeA_6_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-10.000000, 45, 0, 0);
+};cubeB_6_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-10.000000, 0, 45, 0);
+};cubeC_6_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(6.000000, 1,-10.000000, 0, 0, 45);
+}; petalA_6_10a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_6_10b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_6_10c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-6.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_6_10d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(6.000000, 0,-10.000000, 0, 0, 0);
+        }; cubeA_8_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,0.000000, 45, 0, 0);
+};cubeB_8_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,0.000000, 0, 45, 0);
+};cubeC_8_0a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_8_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,0.000000, 45, 0, 0);
+};cubeB_8_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,0.000000, 0, 45, 0);
+};cubeC_8_0b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_8_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,0.000000, 45, 0, 0);
+};cubeB_8_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,0.000000, 0, 45, 0);
+};cubeC_8_0c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,0.000000, 0, 0, 45);
+}; cubeA_8_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,0.000000, 45, 0, 0);
+};cubeB_8_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,0.000000, 0, 45, 0);
+};cubeC_8_0d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,0.000000, 0, 0, 45);
+}; petalA_8_0a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_8_0b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_8_0c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_8_0d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_8_2a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 2.000000, 0, 0, 0);
+        };
+        petalB_8_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 2.000000, 45, 0, 0);
+        };
+        petalC_8_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 2.000000, 90, 0, 0);
+        };
+        petalD_8_2a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 2.000000, 135, 0,
+0);
+         }; petalA_8_2b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -2.000000, 0, 0,
+0);
+        };
+        petalB_8_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -2.000000, 45, 0,
+0);
+        };
+        petalC_8_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -2.000000, 90, 0,
+0);
+        };
+        petalD_8_2b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -2.000000, 135, 0,
+0);
+         }; petalA_8_2c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 2.000000, 0, 0, 0);
+        };
+        petalB_8_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 2.000000, 45, 0,
+0);
+        };
+        petalC_8_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 2.000000, 90, 0,
+0);
+        };
+        petalD_8_2c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 2.000000, 135, 0,
+0);
+         }; petalA_8_2d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -2.000000, 0, 0, 0);
+        };
+        petalB_8_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -2.000000, 45, 0,
+0);
+        };
+        petalC_8_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -2.000000, 90, 0,
+0);
+        };
+        petalD_8_2d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -2.000000, 135, 0,
+0);
+         }; petalA_8_2a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_8_2b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_8_2c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_8_2d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,-2.000000, 0, 0, 0);
+        }; cubeA_8_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,4.000000, 45, 0, 0);
+};cubeB_8_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,4.000000, 0, 45, 0);
+};cubeC_8_4a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,4.000000, 0, 0, 45);
+}; cubeA_8_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,-4.000000, 45, 0, 0);
+};cubeB_8_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,-4.000000, 0, 45, 0);
+};cubeC_8_4b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,-4.000000, 0, 0, 45);
+}; cubeA_8_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,4.000000, 45, 0, 0);
+};cubeB_8_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,4.000000, 0, 45, 0);
+};cubeC_8_4c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,4.000000, 0, 0, 45);
+}; cubeA_8_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,-4.000000, 45, 0, 0);
+};cubeB_8_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,-4.000000, 0, 45, 0);
+};cubeC_8_4d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,-4.000000, 0, 0, 45);
+}; petalA_8_4a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_8_4b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_8_4c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_8_4d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_8_6a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 6.000000, 0, 0, 0);
+        };
+        petalB_8_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 6.000000, 45, 0, 0);
+        };
+        petalC_8_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 6.000000, 90, 0, 0);
+        };
+        petalD_8_6a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 6.000000, 135, 0,
+0);
+         }; petalA_8_6b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -6.000000, 0, 0,
+0);
+        };
+        petalB_8_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -6.000000, 45, 0,
+0);
+        };
+        petalC_8_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -6.000000, 90, 0,
+0);
+        };
+        petalD_8_6b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -6.000000, 135, 0,
+0);
+         }; petalA_8_6c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 6.000000, 0, 0, 0);
+        };
+        petalB_8_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 6.000000, 45, 0,
+0);
+        };
+        petalC_8_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 6.000000, 90, 0,
+0);
+        };
+        petalD_8_6c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 6.000000, 135, 0,
+0);
+         }; petalA_8_6d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -6.000000, 0, 0, 0);
+        };
+        petalB_8_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -6.000000, 45, 0,
+0);
+        };
+        petalC_8_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -6.000000, 90, 0,
+0);
+        };
+        petalD_8_6d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -6.000000, 135, 0,
+0);
+         }; petalA_8_6a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_8_6b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_8_6c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_8_6d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,-6.000000, 0, 0, 0);
+        }; cubeA_8_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,8.000000, 45, 0, 0);
+};cubeB_8_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,8.000000, 0, 45, 0);
+};cubeC_8_8a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,8.000000, 0, 0, 45);
+}; cubeA_8_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,-8.000000, 45, 0, 0);
+};cubeB_8_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,-8.000000, 0, 45, 0);
+};cubeC_8_8b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,-8.000000, 0, 0, 45);
+}; cubeA_8_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,8.000000, 45, 0, 0);
+};cubeB_8_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,8.000000, 0, 45, 0);
+};cubeC_8_8c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-8.000000, 1,8.000000, 0, 0, 45);
+}; cubeA_8_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,-8.000000, 45, 0, 0);
+};cubeB_8_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,-8.000000, 0, 45, 0);
+};cubeC_8_8d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(8.000000, 1,-8.000000, 0, 0, 45);
+}; petalA_8_8a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_8_8b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_8_8c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_8_8d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_8_10a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 10.000000, 0, 0, 0);
+        };
+        petalB_8_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 10.000000, 45, 0,
+0);
+        };
+        petalC_8_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 10.000000, 90, 0,
+0);
+        };
+        petalD_8_10a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, 10.000000, 135, 0,
+0);
+         }; petalA_8_10b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -10.000000, 0, 0,
+0);
+        };
+        petalB_8_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -10.000000, 45, 0,
+0);
+        };
+        petalC_8_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -10.000000, 90, 0,
+0);
+        };
+        petalD_8_10b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, -10.000000, 135, 0,
+0);
+         }; petalA_8_10c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 10.000000, 0, 0,
+0);
+        };
+        petalB_8_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 10.000000, 45, 0,
+0);
+        };
+        petalC_8_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 10.000000, 90, 0,
+0);
+        };
+        petalD_8_10c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-8.000000, 1, 10.000000, 135, 0,
+0);
+         }; petalA_8_10d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -10.000000, 0, 0,
+0);
+        };
+        petalB_8_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -10.000000, 45, 0,
+0);
+        };
+        petalC_8_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -10.000000, 90, 0,
+0);
+        };
+        petalD_8_10d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(8.000000, 1, -10.000000, 135, 0,
+0);
+         }; petalA_8_10a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_8_10b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_8_10c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-8.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_8_10d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(8.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_10_0a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_10_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_10_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_10_0a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_10_0b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 0, 0,
+0);
+        };
+        petalB_10_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_10_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_10_0b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_10_0c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 0, 0,
+0);
+        };
+        petalB_10_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_10_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_10_0c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_10_0d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 0, 0, 0);
+        };
+        petalB_10_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 45, 0,
+0);
+        };
+        petalC_10_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 90, 0,
+0);
+        };
+        petalD_10_0d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 0.000000, 135, 0,
+0);
+         }; petalA_10_0a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_10_0b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_10_0c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,0.000000, 0, 0, 0);
+        }; petalA_10_0d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,0.000000, 0, 0, 0);
+        }; cubeA_10_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,2.000000, 45, 0, 0);
+};cubeB_10_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,2.000000, 0, 45, 0);
+};cubeC_10_2a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,2.000000, 0, 0, 45);
+}; cubeA_10_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-2.000000, 45, 0, 0);
+};cubeB_10_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-2.000000, 0, 45, 0);
+};cubeC_10_2b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-2.000000, 0, 0, 45);
+}; cubeA_10_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,2.000000, 45, 0, 0);
+};cubeB_10_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,2.000000, 0, 45, 0);
+};cubeC_10_2c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,2.000000, 0, 0, 45);
+}; cubeA_10_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-2.000000, 45, 0, 0);
+};cubeB_10_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-2.000000, 0, 45, 0);
+};cubeC_10_2d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-2.000000, 0, 0, 45);
+}; petalA_10_2a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_10_2b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_10_2c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,2.000000, 0, 0, 0);
+        }; petalA_10_2d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,-2.000000, 0, 0, 0);
+        }; petalA_10_4a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 4.000000, 0, 0, 0);
+        };
+        petalB_10_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 4.000000, 45, 0,
+0);
+        };
+        petalC_10_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 4.000000, 90, 0,
+0);
+        };
+        petalD_10_4a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 4.000000, 135, 0,
+0);
+         }; petalA_10_4b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -4.000000, 0, 0,
+0);
+        };
+        petalB_10_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -4.000000, 45, 0,
+0);
+        };
+        petalC_10_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -4.000000, 90, 0,
+0);
+        };
+        petalD_10_4b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -4.000000, 135, 0,
+0);
+         }; petalA_10_4c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 4.000000, 0, 0,
+0);
+        };
+        petalB_10_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 4.000000, 45, 0,
+0);
+        };
+        petalC_10_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 4.000000, 90, 0,
+0);
+        };
+        petalD_10_4c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 4.000000, 135, 0,
+0);
+         }; petalA_10_4d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -4.000000, 0, 0,
+0);
+        };
+        petalB_10_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -4.000000, 45, 0,
+0);
+        };
+        petalC_10_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -4.000000, 90, 0,
+0);
+        };
+        petalD_10_4d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -4.000000, 135, 0,
+0);
+         }; petalA_10_4a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_10_4b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,-4.000000, 0, 0, 0);
+        }; petalA_10_4c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,4.000000, 0, 0, 0);
+        }; petalA_10_4d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,-4.000000, 0, 0, 0);
+        }; cubeA_10_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,6.000000, 45, 0, 0);
+};cubeB_10_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,6.000000, 0, 45, 0);
+};cubeC_10_6a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,6.000000, 0, 0, 45);
+}; cubeA_10_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-6.000000, 45, 0, 0);
+};cubeB_10_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-6.000000, 0, 45, 0);
+};cubeC_10_6b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-6.000000, 0, 0, 45);
+}; cubeA_10_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,6.000000, 45, 0, 0);
+};cubeB_10_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,6.000000, 0, 45, 0);
+};cubeC_10_6c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,6.000000, 0, 0, 45);
+}; cubeA_10_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-6.000000, 45, 0, 0);
+};cubeB_10_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-6.000000, 0, 45, 0);
+};cubeC_10_6d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-6.000000, 0, 0, 45);
+}; petalA_10_6a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_10_6b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_10_6c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,6.000000, 0, 0, 0);
+        }; petalA_10_6d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,-6.000000, 0, 0, 0);
+        }; petalA_10_8a
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 8.000000, 0, 0, 0);
+        };
+        petalB_10_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 8.000000, 45, 0,
+0);
+        };
+        petalC_10_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 8.000000, 90, 0,
+0);
+        };
+        petalD_10_8a = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, 8.000000, 135, 0,
+0);
+         }; petalA_10_8b
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -8.000000, 0, 0,
+0);
+        };
+        petalB_10_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -8.000000, 45, 0,
+0);
+        };
+        petalC_10_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -8.000000, 90, 0,
+0);
+        };
+        petalD_10_8b = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, -8.000000, 135, 0,
+0);
+         }; petalA_10_8c
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 8.000000, 0, 0,
+0);
+        };
+        petalB_10_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 8.000000, 45, 0,
+0);
+        };
+        petalC_10_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 8.000000, 90, 0,
+0);
+        };
+        petalD_10_8c = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(-10.000000, 1, 8.000000, 135, 0,
+0);
+         }; petalA_10_8d
+        = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -8.000000, 0, 0,
+0);
+        };
+        petalB_10_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -8.000000, 45, 0,
+0);
+        };
+        petalC_10_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -8.000000, 90, 0,
+0);
+        };
+        petalD_10_8d = VisibleEntity {
+            model = "petalModel";
+            frame = CFrame::fromXYZYPRDegrees(10.000000, 1, -8.000000, 135, 0,
+0);
+         }; petalA_10_8a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_10_8b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,-8.000000, 0, 0, 0);
+        }; petalA_10_8c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,8.000000, 0, 0, 0);
+        }; petalA_10_8d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,-8.000000, 0, 0, 0);
+        }; cubeA_10_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,10.000000, 45, 0, 0);
+};cubeB_10_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,10.000000, 0, 45, 0);
+};cubeC_10_10a= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,10.000000, 0, 0, 45);
+}; cubeA_10_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-10.000000, 45, 0, 0);
+};cubeB_10_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-10.000000, 0, 45, 0);
+};cubeC_10_10b= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,-10.000000, 0, 0, 45);
+}; cubeA_10_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,10.000000, 45, 0, 0);
+};cubeB_10_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,10.000000, 0, 45, 0);
+};cubeC_10_10c= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(-10.000000, 1,10.000000, 0, 0, 45);
+}; cubeA_10_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-10.000000, 45, 0, 0);
+};cubeB_10_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-10.000000, 0, 45, 0);
+};cubeC_10_10d= VisibleEntity {
+ model = "whiteCubeModel";
+   frame = CFrame::fromXYZYPRDegrees(10.000000, 1,-10.000000, 0, 0, 45);
+}; petalA_10_10a= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_10_10b= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,-10.000000, 0, 0, 0);
+        }; petalA_10_10c= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(-10.000000, 0,10.000000, 0, 0, 0);
+        }; petalA_10_10d= VisibleEntity {
+        model = "stemModel";
+        frame = CFrame::fromXYZYPRDegrees(10.000000, 0,-10.000000, 0, 0, 0);
+        }; };}; 

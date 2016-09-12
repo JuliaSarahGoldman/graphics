@@ -5,6 +5,11 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "0-cubes", "main.vcxproj", "{B87D787E-E674-465A-AED3-8264ED17DFB1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{60775671-75FF-4321-B634-FF0EEBE3FFDD}"
+	ProjectSection(SolutionItems) = preProject
+		doc-files\report.md.html = doc-files\report.md.html
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64

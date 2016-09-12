@@ -253,13 +253,13 @@ void App::makeGUI() {
     debugWindow->setVisible(true);
     developerWindow->videoRecordDialog->setEnabled(true);
 
-    GuiPane* infoPane = debugPane->addPane("Info", GuiTheme::ORNATE_PANE_STYLE);
+   /*GuiPane* infoPane = debugPane->addPane("Info", GuiTheme::ORNATE_PANE_STYLE);
     
     // Example of how to add debugging controls
     infoPane->addLabel("You can add GUI controls");
     infoPane->addLabel("in App::onInit().");
     infoPane->addButton("Exit", [this]() { m_endProgram = true; });
-    infoPane->pack();
+    infoPane->pack();*/
 
     // More examples of debugging GUI controls:
     // debugPane->addCheckBox("Use explicit checking", &explicitCheck);

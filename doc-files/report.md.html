@@ -1,0 +1,70 @@
+Julia Goldman
+CSCI 271
+
+Lab 0: Cubes
+==================================
+
+System Overview
+==================================
+This program uses a file App.cpp (and its header, App.h). When initialized, this creates an App object, which is a widget that can display various G3D scene files. I added additional helper methods to App, that when App is initialized write text to scene files which can then be viewed. The main ones are generateStaircase(), which generates code for a spiral staircase, and generateFlowers(), which generates code for a field of dandelions. The second one also has three helper methods, generatePuffs(), generateBlooms(), and generateStems(), which each return the code to generate one puff, bloom, or stem, which can then help generateFlowers() generate the scene file for the complete scene.
+
+Coordinate System
+==================================
+
+********************************
+*              Y ^             *
+*                 \   ->yaw    *
+*                  \           *
+*                   \_____\ X  *
+*  +---->X          /     /    *
+*  |        roll<- /    v      *
+*  |              /     pitch  *
+*  v Y         Z v             *
+********************************
+
+Results
+==================================
+
+White Cube:
+
+![](../cube1.jpg)
+![](../whiteCube2.jpg)
+
+Cornell Box:
+
+![](../CornellBox1.jpg)
+![](../CornellBox2.jpg)
+![](../CornellBox3.jpg)
+
+Spiral Stiarcase:
+
+![](../staircase1.jpg)
+![](../staircase2.jpg)
+
+Custom Scene: 
+Dandelions
+![](../Flowers1.jpg)
+![](../Flowers2.jpg)
+![](../Flowers3.jpg)
+![](../Flowers4.jpg)
+
+First, I created a single instance each of the yellow dandelion in bloom and the white dandelion puff. I created a white cube model for the puff, a yellow rectangular model for the bloom, and a green rectangular prism model for the stems. Then, I created each flower by layering multiple entities of their cubic or rectangular models at different angles. Then, in App.cpp I wrote helper methods that would return a string of the code needed to generate a single puff, bloom, or stem. Then I created another method in App.cpp that generated a scene file for a field of dandelions, which used the helper methods in a for loop, distributing the flowers and stems out from the center, alternating in type.
+
+    $$ \frac{df(x)}{dx} = \lim_{h \to 0} \left[ \frac{f(x+h)-f(x-h)}{2h}\right] $$
+
+Questions
+==================================
+1. The Scene* shared_ptr<scene> data types differ in that...
+2. G3D know where to find the scene files because...
+3. It is much safer to put one's initialization code in App::onInit rather than in App::App. This is because one does not want to cause an exception in the constructor. If one does so... 
+4. App::onGraphics3D has a call chain of...
+5. The file cube.obj is stored... The Scene parser kne wto load it from there because...
+6. A homogenous material might need different colors because it might be in different sorts of lighting?
+
+Time
+==================================
+The initial lab period of three hours was spent accimating to visual studio. 
+On Sunday, I spent from 12:15 pm to 6:40 pm implementing the cube, spiral staircase, and Cornell Box, and beginning my own scene. Thus, I spent 6 hours and 25 minutes on the lab's required elements. I came back to the lab from 8pm to 10 pm on Sunday to polish and improved my scene, thus spending 2 hours on optional elements. On Monday, I went to the lab to do my report.
+
+<!-- Markdeep: -->
+<style class="fallback">body{visibility:hidden;white-space:pre;font-family:monospace;}</style><script src="https://casual-effects.com/markdeep/latest/markdeep.min.js"></script><script>window.alreadyProcessedMarkdeep||(document.body.style.visibility="visible")</script>

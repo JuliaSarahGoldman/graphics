@@ -54,12 +54,12 @@ First, I created a single instance each of the yellow dandelion in bloom and the
 
 Questions
 ==================================
-1. The Scene* and shared_ptr<scene> data types differ in that Scene* is a pointer, while shared_ptr<scene> is a shared pointer. If a shared pointer is deleted, it only frees the memory allocated to it if it is the last shared pointer to that memory, while when delete is calle don a regular pointer, the memory is freed no matter what.
+1. The Scene* and shared_ptr<scene> data types differ in that Scene* is a pointer, while shared_ptr<scene> is a shared pointer. If a shared pointer is deleted, it only frees the memory allocated to it if it is the last shared pointer to that memory, while when delete is called on a regular pointer, the memory is freed no matter what.
 2. G3D know where to find the scene files. The GApp::Settings object has its data directory set to the current directory. In scene.cpp, setSceneSearchPaths can be used to set the directories that load scene will serach in (defaulting to the current directory, the paths specified by the environment variable, and the directory including scene/CornellBox-Glossy.scn.any).
 3. It is more to put one's initialization code in App::onInit rather than in App::App. This is because one does not want to throw an exception in the constructor, before the object actually exists. If one throws an exception from onInit, the exception's value will be returned, providing helpful information, which will not happen for an exception thrown from the constructor.  
 4. App::onGraphics3D is called by GApp::onGraphics which is called by GApp::loadScene which is called by App::onInit which is called by GApp::beginRun which is called GApp::onRun which is called by the main;
-5. The file cube.obj is stored... The Scene parser kne wto load it from there because...
-6. A homogenous material might need different colors because it might be in different sorts of lighting?
+5. The file cube.obj is stored in g3d\G3D10\build\data\model\cube. When a model is created, a filename is provided. The parser knows where to find that file, because it's in a directory it will search. 
+6. A homogenous material might need different colors because each is color represents a different way that light can bounce off said homogenous material.
 
 Time
 ==================================

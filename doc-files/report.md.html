@@ -5,14 +5,14 @@ CSCI 271
 
 System Overview
 ==================================
-This program uses a file App.cpp (and its header, App.h). When initialized, this creates an App object, which is a widget that can display various G3D scene files. I added additional helper methods to App, that when App is initialized write text to scene files which can then be viewed. The main ones are generateStaircase(), which generates code for a spiral staircase, and generateFlowers(), which generates code for a field of dandelions. The second one also has three helper methods, generatePuffs(), generateBlooms(), and generateStems(), which each return the code to generate one puff, bloom, or stem, which can then help generateFlowers() generate the scene file for the complete scene.
+This program uses a file [App.cpp](file:///C:/cs371/0-cubes/build/doc/class_app.html). When initialized, this creates an App object, which is a widget that can display various G3D scene files. I added additional helper methods to App, so that when App is initialized with [App::onInit](file:///C:/cs371/0-cubes/build/doc/class_app.html#a383cf8e8949745f9b2b10651b27d1724) these helpers write text to scene files which can then be viewed. The main two are [generateStaircase](), which generates code for a spiral staircase, and [generateFlowers](file:///C:/cs371/0-cubes/build/doc/class_app.html#a1b8fd6197f5fb0c40f257c4d602c95a1), which generates code for a field of dandelions. The latter one also has three helper methods, [makePuffball](file:///C:/cs371/0-cubes/build/doc/class_app.html#a420f36947fd0caf6c9bca7a59971d30f), [makeBloom](file:///C:/cs371/0-cubes/build/doc/class_app.html#a1524e1bdecd01f7c96a215ccdf423ab3), and [makeStem](file:///C:/cs371/0-cubes/build/doc/class_app.html#a6f834618593dd05632408ffa604937f5), which each return the code to generate one puff, bloom, or stem, which can then help generateFlowers generate the scene file for the complete scene. 
 
 Coordinate System
 ==================================
 
 *************************************
-*                   Y ^             *
-*                      \    ^roll   *
+*                   Y ^   (X,Y,Z)   *
+*(X,Y)                 \    ^roll   *
 *                   /   \    \      *
 *           pitch  v     \_____\ X  *
 *  +---->X               /     /    *
@@ -26,26 +26,32 @@ Results
 
 White Cube:
 
-![](../cube1.jpg)
-![](../whiteCube2.jpg)
+![A white cube at (0, 0, -2) rotated 45 degrees about the vertical axis.](C:/cs371/0-cubes/goodCube.jpg)
 
 Cornell Box:
 
-![](../CornellBox1.jpg)
-![](../CornellBox2.jpg)
-![](../CornellBox3.jpg)
+![Cornell Box](C:/cs371/0-cubes/CornellBox1.jpg)
+
+![Another angle on the Cornell Box](C:/cs371/0-cubes/CornellBox2.jpg)
+
+![Another angle on the Cornell Box](C:/cs371/0-cubes/CornellBox3.jpg)
 
 Spiral Stiarcase:
 
-![](../staircase1.jpg)
-![](../staircase2.jpg)
+![A spiral staircase with 50 steps](C:/cs371/0-cubes/staircase1.jpg)
+
+![A close up of the spiral staircase](C:/cs371/0-cubes/staircase2.jpg)
 
 Custom Scene: 
 Dandelions
-![](../Flowers1.jpg)
-![](../Flowers2.jpg)
-![](../Flowers3.jpg)
-![](../Flowers4.jpg)
+
+![A field of dandelions, both in bloom and gone to seed](C:/cs371/0-cubes/Flowers1.jpg)
+
+![Dandelions](C:/cs371/0-cubes/Flowers2.jpg)
+
+![Dandelions](C:/cs371/0-cubes/Flowers3.jpg)
+
+![Dandelions](C:/cs371/0-cubes/Flowers4.jpg)
 
 First, I created a single instance each of the yellow dandelion in bloom and the white dandelion puff. I created a white cube model for the puff, a yellow rectangular model for the bloom, and a green rectangular prism model for the stems. Then, I created each flower by layering multiple entities of their cubic or rectangular models at different angles. Then, in App.cpp I wrote helper methods that would return a string of the code needed to generate a single puff, bloom, or stem. Then I created another method in App.cpp that generated a scene file for a field of dandelions, which used the helper methods in a for loop, distributing the flowers and stems out from the center, alternating in type.
 
@@ -59,6 +65,29 @@ Questions
 4. App::onGraphics3D is called by GApp::onGraphics which is called by GApp::loadScene which is called by App::onInit which is called by GApp::beginRun which is called GApp::onRun which is called by the main;
 5. The file cube.obj is stored in g3d\G3D10\build\data\model\cube. When a model is created, a filename is provided. The parser knows where to find that file, because it's in a directory it will search. 
 6. A homogenous material might need different colors because each is color represents a different way that light can bounce off said homogenous material.
+
+Reflection
+==================================
+I learned:
+
+    *The basics of using Visual Studio.
+
+    *How to understand 3D coordinates and rotation.
+
+    *How to use C++ to generate repetitive files.
+
+    *How to use textures.
+
+    *When to rewrite a piece of code rather than continue to debug it.
+
+    *When to use helper methods to make a process more understandable.
+
+    *The basics of using Markdeep.
+
+    *A tiny bit of LaTeX.
+
+Some of this was very specific to our tools, while some was more generally applicable.
+
 
 Time
 ==================================

@@ -49,7 +49,7 @@ int main(int argc, const char* argv[]) {
 App::App(const GApp::Settings& settings) : GApp(settings) {
 }
 
-
+//Generates a scene file for a spiral staircase.
 //http://bgfons.com/upload/stone_texture2399.jpg
 void App::generateStaircase(){
     TextOutput text = TextOutput("scene/staircase.Scene.Any");
@@ -77,6 +77,7 @@ void App::generateStaircase(){
     text.commit();
 }
 
+//Returns the code needed to generate a stem.
 String App::makeStem(float x, float z, String id){
     String stem = String("stemA_");
     stem += id
@@ -88,6 +89,7 @@ String App::makeStem(float x, float z, String id){
     return stem;
 }
 
+//Returns the code needed to generate a bloom
 String App::makeBloom(float x, float z, String id){
     String flower = String("petalA_");
     flower += id
@@ -116,6 +118,8 @@ String App::makeBloom(float x, float z, String id){
 +"\n         };";
         return flower;
 }
+
+//returns the code needs to generate a Puffball
 String App::makePuffball(float x, float z, String id){
     String flower = String("cubeA_");
     flower += id
@@ -136,6 +140,7 @@ String App::makePuffball(float x, float z, String id){
     return flower;
 }
 
+//Generate the scene file for a field of dandelions
 void App::generateFlowers(){
     TextOutput text = TextOutput("scene/pointyStars.Scene.Any");
     String starCode = String("{ name = \"pointyStars\";");
